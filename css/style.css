@@ -37,6 +37,132 @@ body {
 	line-height: 1.4;
 	font-family: 'Open Sans', sans-serif, Helvetica, Arial, sans-serif;
 }
+.blog{
+	background-color: #f0efef;
+}
+
+/********************************************
+/*BLOG
+/**********************************************/
+
+.introblog{
+	width: 100%;
+	background-color: #033048;
+}
+
+.introblog .blogcontainer {
+	width: 940px;
+	margin: auto;
+
+}
+.introblog .blogcontainer h1{
+	color: white;
+	font-weight: 800;
+	font-size: 48px;
+	padding: 30px 0 30px 0;
+	float: left;
+}
+.blogcontainer a{
+	font-size: 24px;
+	color: #f9e42e;
+	text-decoration: none;
+}
+.blogcontainer ul{
+	display: inline;
+	float: right;
+	padding: 45px 0 10px 0;
+}
+.blogcontainer li{
+	display: inline;
+	padding: 20px 10px 20px 10px;
+}
+.wrapper{
+	width: 940px;
+	margin: auto;
+}
+.main{
+	width: 700px;
+	float: left;
+}
+.main h2{
+	color: #033048;
+	font-size: 40px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+.main .post:first-of-type{
+	margin-top: 50px
+}
+.main img{
+	padding: 0 10px 10px 0;
+	width: 100%;
+}
+.main p{
+	color: grey;
+	font-size: 24px;
+	font-weight: 300;
+	padding: 0 10px 10px 0;
+}
+.main p:first-letter {
+	color: grey;
+	float: left;
+	font-size: 80px;
+	line-height: 65px;
+	padding: 5px 5px 10px 2px;
+	font-weight: 600;
+}
+.main a{
+	font-size: 24px;
+	font-weight: 600;
+	color: #033048;
+	text-decoration: none;
+	float: right;
+}
+.post {
+	border-bottom: 2px solid #043049;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+.sidebar{
+	color: #033048;
+	width: 240px;
+	float: right;
+	padding-left: 20px;
+}
+.sidebar h3{
+	font-size: 32px;
+	font-weight: 800;
+	padding: 50px 0 20px 0;
+}
+.sidebar li{
+	font-size: 24px;
+	font-weight: 300;
+
+}
+.sidebar p{
+	font-size: 22px;
+	font-weight: 300;
+}
+.sidebar a{
+	font-size: 22px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #033048;
+}
+.main a:hover, .sidebar a:hover{
+	color: yellow;
+}
+.sidebar .ad-unit{
+	font-size: 32px;
+	font-weight: 800;
+	text-align: center;
+	color: #033048;
+	background-color: white;
+	width:100%;
+	height: 500px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
 
 /******************************************
 /* LAYOUT
@@ -54,21 +180,21 @@ body {
 }
 .intro .container h1 { 
 	font-size: 24px;
-	font-weight: 800;
+	font-weight: bolder;
 	color: white;
 	padding: 50px 0 0 150px;
 	text-align: left;
 }
 .intro .container h2 {
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: bolder;
 	color: white;
 	text-align: center;
 	padding: 100px 0 50px 0;
 }
 .intro .container a {
 	font-size: 14px;
-	font-weight: 800;
+	font-weight: bold;
 	border-radius: 5px;
 	background-color: #f9e42e;
 	color: #033048;
@@ -81,7 +207,7 @@ body {
 .beneficts h2{
 	color: #033048;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: bolder;
 	padding-bottom: 10px;
 }
 .beneficts p {
@@ -104,7 +230,7 @@ body {
 .quote blockquote {
 	font-weight: lighter;
 	font-size: 18px;
-	font-style: 300 italic;
+	font-style: italic;
 	width: 500px;
 	color: white;
 	margin: 0 auto;
@@ -158,3 +284,8 @@ footer ul li {
 	list-style: none;
 	margin: 0 20px 50px;
 }
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
