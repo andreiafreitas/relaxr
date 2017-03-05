@@ -118,6 +118,9 @@ body {
 	text-decoration: none;
 	float: right;
 }
+.hide{
+	display: none;
+}
 .post {
 	border-bottom: 2px solid #043049;
 	padding-bottom: 50px;
